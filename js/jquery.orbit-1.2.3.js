@@ -47,6 +47,7 @@
               locked;
 
             if(window.location.hash) activeSlide = window.location.hash.substr(1);
+            keyDown();
             
             //Initialize
             var orbit = $(this).addClass('orbit'),         
@@ -188,6 +189,22 @@
 
             function setAnchor() {
               window.location.hash = '#' + activeSlide;
+            }
+
+            function keyDown() {
+              var previous = 37;  
+              var next = 39; 
+              $(document).keydown(function(e){
+                console.log(activeSlide);
+                switch(e.keyCode) { 
+                  case previous: 
+                    shift('prev')
+                    break; 
+                  case next: 
+                    shift('next')
+                    break; 
+                }
+              }, this); 
             }
 
 // ==============
