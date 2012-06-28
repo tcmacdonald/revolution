@@ -1,0 +1,154 @@
+/* These are just the demo styles and these can be removed and Orbit 
+will still work like a champ (except any content block needs a background which
+our demo gets from this sheet) */
+
+#header {
+  background-color: #eee;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  margin-bottom: 0;
+  -moz-box-shadow:    0 1px 3px #bcbcbc;
+  -webkit-box-shadow: 0 1px 3px #bcbcbc;
+  box-shadow:         0 1px 3px #bcbcbc;
+}
+
+.container {
+	margin-top: 33px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+	width: 1030px;
+	background-color: #fff;
+}
+    
+.concept1 { background: url(../images/one.jpg); }
+.concept2 { background: url(../images/two.jpg); }
+
+
+#featured { border: 2px solid #fff;}
+
+.content h1 {
+	font-size: 40px; 
+	text-transform: uppercase; 
+	font-weight: bold; 
+	text-align: center;
+	margin-top: 180px;
+	color: #222;
+	line-height: 50px;  }
+	
+.content h3 {
+	text-align: center; 
+	font-size: 22px; 
+	color: #222; }
+	
+.highlights {
+	padding: 60px 100px;
+	width: 1030px;
+	background: #000;
+	opacity: .9;
+	/*border-top: 1px solid #2c9cd7;
+	 border-bottom: 2px solid #157fb5;*/
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.2);
+}
+
+.recap ul, .highlights ul {
+	list-style: disc;
+}
+
+.recap li, .highlights li {
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 0;
+	padding-top: 10px;
+}
+
+.recap {
+	color: #314c00;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2), 0 1px 0 rgba(255,255,255,.2);
+}
+
+.recap h5 {
+	margin-top: 110px;
+}
+
+.recap p {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.recap a {
+	color: #314c00;
+}
+.recap a:hover {
+	color: #50750c;
+}
+
+.recap img { 
+	float: left;
+	margin: 30px 0 0 50px;
+	padding-right: 15px;}
+
+.recap .copy {
+	margin-top: 80px;
+	margin-left: 370px;
+	width: 600px;
+}
+
+.recap ul {
+	margin-bottom: 10px;
+}
+
+.recap p.small {
+	padding: 15px 0;
+	font-size: 12px;
+}
+
+    
+/*	--------------------------------------------------
+	Global Reset & Standards
+	-------------------------------------------------- */
+	html, body { margin: 0; padding: 0; }
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, img, small, strike, strong, em, sub, sup, tt, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, section { margin: 0; padding: 0; border: 0; font-weight: normal; font-style: normal; font-size: 100%; line-height: 1; font-family: inherit; text-align: left; }
+	table { border-collapse: collapse; border-spacing: 0; }
+	ol, ul { list-style: none; }
+
+	body { background: #fff; font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 13px; line-height: 18px; text-shadow: 0 0 1px rgba(0,0,0,0.01); color: #555; }
+	
+	h3 {
+		margin: 10px 20px;
+		color: #777;
+		font-size: 13px; }	
+		
+	h4 {
+		margin-top: 10px;
+		color: #666;
+		font-size: 21px; }
+	
+	h5 {
+		padding-bottom: 10px;
+		font-size: 32px;
+		font-weight: bold;
+	}
+	
+	h6 {
+		margin-top: 50px;
+		font-size: 21px;
+		font-weight: bold;
+	}
+	
+	a {
+		color:#001c2a;
+	}
+	
+	a:hover {
+		color:#06334a;
+	}
+
+	
+	
